@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="br">
+<link rel="stylesheet" href="scr/pasta css/projetoS.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanzin gameplays</title>
+    <script src="scr/javascript/projetuS.js" defer></script>
+</head>
+<body>
+        
+    <header><!--Cabeçalho com foto-->
+            <h1 class="meu_nome">
+                Yan Lemos
+            </h1>
+            <div><!--Foto minha-->
+                <img class="imagem" src="scr/photos/foto minha.jpg"
+               alt="Um rapaz de 1,70, com cabelos castanhos, branco, olhos castanhos, e um sorriso largo">
+            </div>
+            <p class="status">
+                <em>
+                Dev Junior
+                </em>
+            </p>
+
+    </header>
+
+        <br><br>
+        
+    <main><!--Corpo da pagina principal-->
+        
+    <section><!--primera parte-->
+        
+        <div><!--Titulo mais sobre mim-->
+            <h2 class="titulos">
+            Mais sobre mim 
+            </h2>
+            <br>
+            <p><!--Introdução de Mais sobre mim-->
+            Muito prazer sou <b>Yan Lemos Santana</b>,
+            tenho <b>19 anos</b>, me formei no ensino médio atráves do 
+            <abbr title="Centro de Ensino Médio Industrial de Taguatinga">CEMEIT</abbr>
+            sou brasileiro morador do <abbr title="Distrito Federal">DF</abbr>, moro na região de <abbr title="Vicente Pires">VP</abbr>
+            me encontro cursando <b>Analise e Desenvolvimento de Sistemas</b>&#128187;,
+            estou sempre praticando e buscando aprender ainda mais,
+            como você pode ver, esse é meu prototipo de site
+            nele tentarei demonstrar o que eu aprendi,
+            tanto em HTML quanto em CSS.
+           <br> Obrigado por acessar meu prototipo ^^ 
+            </p>
+        </div>
+
+        <div><!--Sobre Algum Video que fiz para o Youtube-->
+            <h2 class="titulos">
+                Video
+            </h2>
+            <p>
+                Eu faço alguns videos para o <a class="links" href="https://www.youtube.com/">Youtube</a>,
+                 mas isso é so para demonstrar a linkagem de video.
+            </p>
+                <iframe class="video" src="https://www.youtube.com/embed/RlZ42MNOYsI" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                
+                </iframe>
+        </div>
+
+        <div><!--Aqui está uma musica que gosto-->
+            <h3 class="titulos">
+                Musica
+            </h3>
+            <p>
+                Aqui colocarei uma das musicas que mais gosto, outra forma de linkagem, porem essa é apenas de áudio.
+            </p>
+
+            <div class="player">
+                <audio id="audio-antigo" controls>
+                    <source src="scr/audios/Matuê - 333.mp3" type="audio/mp3">
+                </audio>
+                <div class="progresso">
+                    <p class="faix"> 
+                         Matuê - Album 333 - Faixa - 333
+                    </p>
+                    <input type="range" id="barra-de-progresso" value="0" max="100">
+                    <div id="tempo">
+                        <span id="tempo-decorrido">
+                            00:00
+                        </span>
+                        <span id="tempo-total">
+                            00:00
+                        </span>
+
+                    </div>
+                </div>
+                <button class="play" onclick="TogglePlay()">
+                    Play/Pause
+                </button>
+            </div>
+        </div>
+
+        <div><!--Linha do Tempo-->
+            <h2 class="titulos">
+                Linha do tempo
+            </h2>
+            <ol>
+                <li>
+                    Em 2005, eu nasci!
+                </li>
+                <li>
+                    Em 2014, o meu maior trauma, a seleção Brasileira perdeu de 7 a 1 para a Alemanha! 
+                </li>
+                <li>
+                    Em 2020, entrei no Ensino Medio no <abbr title="Centro de Ensino Médio Industrial de Taguatinga">CEMEIT</abbr>
+                </li>
+                <li>
+                    Em 2024, Comecei a faculdade de Analise e Desenvolvimento de Sistemas(atualmente cursando)
+                </li>
+            </ol>
+        </div>
+        
+        <hr>
+        
+        <div><!--Texto Informativo Sobre Front-And-->
+            <dl>
+                <dt class="titulos">
+                    front-end
+                </dt>
+                <dd>
+                    A aplicação voltada para o usuario final, seja a apresentação visual(<abbr title="User Interface | Interface para Usuario"><i>UI</i></abbr>) ou funcional (<abbr title="User Experience | Experiencia do Usuario"><i>UX</i></abbr>)
+                </dd>
+            </dl>
+        </div>
+            
+            <br>
+        
+    <div><!--Tabela-->
+        <caption>
+            <h4>
+                Tabela de Serviços
+            </h4>
+        </caption>    
+        <table class="tabela">   
+            <thead>
+                <tr><!--Cabeçalho-->
+                    <th scope="col">Serviço</th>
+                    <th scope="col">Valores</th>
+                    <th scope="col">Tempo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--Linha 1-->
+                    <th scope="row">Freelancer</th>
+                    <td>A combinar</td>
+                    <td>A combinar</td>
+                </tr>
+                <tr><!--Linha 2-->
+                    <th scope="row">Pagina Web</th>
+                    <td>A combinar</td>
+                    <td>A combinar</td>
+                </tr>
+                <tr><!--Linha 3-->
+                    <th scope="row">Codigo Back-end</th>
+                    <td>A combinar</td>
+                    <td>A combinar</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+            
+            <hr> 
+
+    </section>
+
+        <section><!--Continua aqui-->
+
+            <div>
+                <div>
+                    <h2 class="titulos">
+                        Formulario/Forúm 
+                    </h2>
+                </div>
+                <div>    
+                    <form action="#" method="get">
+                        
+                        <fieldset>
+                            <legend>Informações sobre você</legend>
+                            <label for="name">
+                                Ninckname:
+                            </label>
+                            <input type="text" value="Digite aqui">
+
+                            <label for="color">
+                                Cor favorita:
+                            </label>
+                            <input type="color" name="color" id="">
+                        
+
+                        <br>
+
+                            <label for="date">
+                             Data de Nascimento:
+                            </label>
+                            <input type="date" name="date" id="">
+
+                        </fieldset>
+
+                        <br>
+                        
+                        <fieldset>
+                            <label for="Imagem">
+                             Coloque uma imagem aqui:
+                            </label>
+                            <input type="file" name="Imagem" id="" accept="imagem/png, imagem/jpg, imagem/jpeg">
+
+                        <br>
+
+                            <label for="video">
+                                Coloque um video aqui:
+                            </label>
+                            <input type="file" name="video" id="" accept="video/mp4, video/avi, video/mkv">
+                        </fieldset>
+                        
+                        <br>
+                        
+                        <fieldset>
+                            <label for="generer">
+                                Genero
+                            </label>
+                            <input type="radio" name="generer" id="Masc" value="Maculino">Maculino <input type="radio" name="generer" id="Fem" value="Feminino">Feminino <input type="radio" name="generer" id="Oth" value="Outros">outros
+                        </fieldset>
+                        <br>
+
+                    </form>
+                </div>  
+                <div>
+                    <fieldset>
+                        <label for="Games">Melhor jogo entre esses:</label>
+                            <select name="Jogos">
+                                <option value="RD2">RD2</option>
+                                <option value="GOD OF WAR RAGNAROK">God of War Ragnarok</option>
+                                <option selected value="Mineirinho">Mineirinho</option>
+                            </select>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </div>  
+            </div>
+
+        </section>
+    
+    </main>
+    
+    <footer><!--Roda pé-->
+        
+        <div><!--Contatos-->
+            <h3 class="titulos">
+            Contato
+            </h3>
+            <ul><!--Contatos aqui--> 
+                <li>Telefone: <abbr title="Meu numero de Telefone">(61) 9 9949-8678</abbr></li>
+                <li>E-mail:<a class="links" href="mailto:yanlmossantana@gmail.com" target="_blank">yanlmossantana@gmail.com</a>
+                <li>Linkedn: <a class="links" href="https://www.linkedin.com/in/yan-lemos/" target="_blank">yan lemos</a>
+                <li>GitHub:<a class="links" href="https://github.com/Yanmekudasay" target="_blank">Yanmekudasay</a>
+                </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>
